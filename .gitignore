@@ -1,0 +1,30 @@
+# Secrets: never upload these
+.env
+*.env
+secrets.h
+credentials.*
+config_local.*
+
+# ESP32 / PlatformIO / Arduino / ESP-IDF
+.pio/
+.vscode/
+build/
+sdkconfig.old
+*.bin
+*.elf
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.log
+
+# Node / React dashboard
+node_modules/
+dashboard/build/
+dashboard/dist/
+
+# OS files
+.DS_Store
+Thumbs.db
